@@ -19,7 +19,7 @@ const UpdateNotes = () => {
     (async () => {
       try {
         const res = await axios.get(
-          `http://localhost:5000/api/notes?username=${encodeURIComponent(username)}`
+          `https://react-notes-app-backend-9ly8.onrender.com/api/notes?username=${encodeURIComponent(username)}`
         );
        const data  = Array.isArray(res.data) ? res.data : res.data.notes;
         setNotes(data || []);
@@ -45,7 +45,7 @@ const UpdateNotes = () => {
   const saveEdit = async (id) => {
     if (!draft.title || !draft.note) return;
     try {
-      await axios.put(`http://localhost:5000/api/notes/${id}`, draft);
+      await axios.put(`https://react-notes-app-backend-9ly8.onrender.com/api/notes/${id}`, draft);
       setNotes((prev) =>
         prev.map((n) => (n._id === id ? { ...n, ...draft } : n))
       );

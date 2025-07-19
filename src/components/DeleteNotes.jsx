@@ -17,7 +17,7 @@ const DeleteNotes = () => {
     (async () => {
       try {
         const res   = await axios.get(
-          `http://localhost:5000/api/notes?username=${encodeURIComponent(username)}`
+          `https://react-notes-app-backend-9ly8.onrender.com/api/notes?username=${encodeURIComponent(username)}`
         );
         const data  = Array.isArray(res.data) ? res.data : res.data.notes;
         setNotes(data || []);
@@ -32,7 +32,7 @@ const DeleteNotes = () => {
     if (!window.confirm("Permanently delete this note?")) return;
     try {
       await axios.delete(
-        `http://localhost:5000/api/notes/${id}?username=${encodeURIComponent(username)}`
+        `https://react-notes-app-backend-9ly8.onrender.com/api/notes/${id}?username=${encodeURIComponent(username)}`
       );
       setNotes((prev) => prev.filter((n) => n._id !== id));
     } catch {

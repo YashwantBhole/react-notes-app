@@ -16,7 +16,7 @@ const ShowNotes = () => {
     (async () => {
       try {
         const res = await axios.get(
-          `http://localhost:5000/api/notes?username=${encodeURIComponent(username)}`
+          `https://react-notes-app-backend-9ly8.onrender.com/api/notes?username=${encodeURIComponent(username)}`
         );
         setNotes(res.data || []);
         console.log(res)

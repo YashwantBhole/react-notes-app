@@ -29,7 +29,7 @@ const AddNote = () => {
 
     try {
       const res = await axios.post(
-        "http://localhost:5000/api/notes",
+        "https://react-notes-app-backend-9ly8.onrender.com/api/notes",
         formData
       );
       setMessage(res.data.message || "Note saved successfully! 🎉");

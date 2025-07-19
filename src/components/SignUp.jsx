@@ -21,7 +21,7 @@ const SignUp = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const response = await axios.post('http://localhost:5000/api/signup', formData);
+      const response = await axios.post('https://react-notes-app-backend-9ly8.onrender.com/api/signup', formData);
       setMessage({ text: response.data.message, type: "success" });
       setShowPopup(true);
     } catch (err) {
