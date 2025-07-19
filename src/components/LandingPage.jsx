@@ -56,7 +56,7 @@ const LandingPage = () => {
 
   return (
     <div className="relative bg-gray-100 min-h-screen flex flex-col">
-      {/* Top Bar with Logout */}cd 
+      {/* Top Bar with Logout */}
       {user && (
         <div className="absolute top-4 right-4">
           <button
