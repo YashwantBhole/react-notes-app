@@ -55,10 +55,10 @@ const LandingPage = () => {
   };
 
   return (
-    <div className="relative bg-gray-100 min-h-screen flex flex-col">
+    <div className="relative bg-gray-100 h-screen flex flex-col">
       {/* Top Bar with Logout */}
       {user && (
-        <div className="absolute top-4 right-4">
+        <div className="absolute top-1 right-4">
           <button
             className="bg-red-500 hover:bg-red-700 transition-colors text-white md:py-2 px-4 rounded-lg cursor-pointer"
             onClick={handleLogout}
@@ -70,14 +70,14 @@ const LandingPage = () => {
 
       {/* Hero Section */}
       {user ? (
-        <section className="flex flex-col items-center justify-center py-12 md:py-24 lg:py-32 bg-blue-600 text-white text-center px-6">
+        <section className="flex flex-col items-center justify-center py-6 md:py-18 lg:py-22 bg-blue-600 text-white text-center px-6">
           <h1 className="text-2xl md:text-4xl lg:text-4xl font-bold mb-4 ">Dear {user.name}, Welcome to NotesApp</h1>
           <p className="text-lg mb-6">
             An easy-to-use note‑taking app to organize your thoughts
           </p>
         </section>
       ) : (
-        <section className="flex flex-col items-center justify-center py-12 lg:py-32 bg-blue-600 text-white text-center px-6">
+        <section className="flex flex-col items-center justify-center py-8 lg:py-24 bg-blue-600 text-white text-center px-6">
           <h1 className="text-4xl font-bold mb-4">Welcome to NotesApp</h1>
           <p className="text-lg mb-6">
             An easy-to-use note‑taking app to organize your thoughts
