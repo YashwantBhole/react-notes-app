@@ -63,9 +63,9 @@ A full-stack notes application where users can create, edit, and delete notes. B
 # PORT = 5000
     npm start
     
-3.Setup the Frontend
-  ```bash
-        cd client
-        npm install
-        npm run dev
+### Setup the Frontend
+    ```bash
+     cd client
+     npm install
+     npm run dev
 
