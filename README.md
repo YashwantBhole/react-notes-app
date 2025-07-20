@@ -50,12 +50,12 @@ A full-stack notes application where users can create, edit, and delete notes. B
 ## 🔧 Getting Started Locally
 
 ### 1. Clone the Repository
-    ```bash
+ ```bash
        git clone https://github.com/your-username/notes-app.git
        cd notes-app
 
 ###  2. Setup the Backend
-    ```bash
+```bash
     cd server
     npm install
 # Create a .env file with:
@@ -64,7 +64,7 @@ A full-stack notes application where users can create, edit, and delete notes. B
     npm start
     
 ### Setup the Frontend
-    ```bash
+ 
      cd client
      npm install
      npm run dev
