@@ -33,5 +33,38 @@ A full-stack notes application where users can create, edit, and delete notes. B
 
 ---
 
-## 📁 Folder Structure
+
+---
+
+## 🌟 Features
+
+- ✅ Create, Read, Update, Delete (CRUD) notes
+- 🧠 Large and rich note content support
+- 📦 MongoDB Atlas database
+- ⚡ Fast UI with Vite and Tailwind CSS
+- 📱 Fully responsive design
+- ☁️ Live deployed frontend and backend
+
+---
+
+## 🔧 Getting Started Locally
+
+### 1. Clone the Repository
+    ```bash
+       git clone https://github.com/your-username/notes-app.git
+       cd notes-app
+
+###  2. Setup the Backend
+    ```bash
+    cd server
+    npm install
+# Create a .env file with:
+# MONGODB_URI = your-mongo-uri
+# PORT = 5000
+    npm start
+3. Setup the Frontend
+     ```bash
+cd client
+npm install
+npm run dev
 
