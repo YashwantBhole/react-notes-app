@@ -9,7 +9,7 @@ A full-stack notes application where users can create, edit, and delete notes. B
 ## 🔗 Live Links
 
 - 🌐 Frontend: [https://your-netlify-url.netlify.app]((http://notezen.netlify.app/))
-- ⚙️ Backend API: [https://your-render-backend-url.onrender.com]([https://your-render-backend-url.onrender.com](https://react-notes-app-backend-9ly8.onrender.com))
+- ⚙️ Backend API: [https://your-render-backend-url.onrender.com]((https://react-notes-app-backend-9ly8.onrender.com))
 
 ---
 
