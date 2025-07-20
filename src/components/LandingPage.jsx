@@ -49,10 +49,13 @@ const LandingPage = () => {
     },
   ];
 
-  const handleFeatureClick = (path) => {
-    if (!user) return;
-    navigate(path, { state: { username: user.username } });
-  };
+const handleFeatureClick = (path) => {
+  if (!user) {
+    alert("Please register or log in to use this feature.");
+    return;
+  }
+  navigate(path, { state: { username: user.username } });
+};
 
   return (
     <div className="relative bg-gray-100 h-screen flex flex-col">
@@ -83,7 +86,7 @@ const LandingPage = () => {
             An easy-to-use note‑taking app to organize your thoughts
           </p>
           <button
-            className="bg-green-500 hover:bg-green-700 transition-colors text-white py-2 px-6 rounded-lg text-xl"
+            className="bg-green-500 hover:bg-green-700 transition-colors text-white py-2 px-6 rounded-lg text-xl cursor-pointer"
             onClick={handleRegister}
           >
             Register Now
