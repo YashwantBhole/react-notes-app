@@ -51,7 +51,7 @@ const DeleteNotes = () => {
         <p className="italic text-gray-600">
           Nothing to delete.{" "}
           <span
-            onClick={() => navigate("/addNotes", { state: { username } })}
+            onClick={() => navigate("/addNote", { state: { username } })}
             className="text-blue-500 underline cursor-pointer"
           >
             Add a note

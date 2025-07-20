@@ -124,7 +124,7 @@ const handleFeatureClick = (path) => {
   <p className="flex items-center justify-center gap-2">
     © 2025 NotesApp. All Rights Reserved.
     <a
-      href="https://github.com/YashwantBhole"
+      href="https://github.com/YashwantBhole/react-notes-app"
       target="_blank"
       rel="noopener noreferrer"
       className="hover:text-gray-300"

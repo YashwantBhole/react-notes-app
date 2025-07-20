@@ -43,7 +43,7 @@ const ShowNotes = () => {
           <p className="text-center text-gray-600 italic">
             No notes yet.{" "}
             <span
-              onClick={() => navigate("/notes", { state: { username } })}
+              onClick={() => navigate("/addNote", { state: { username } })}
               className="text-blue-500 underline cursor-pointer hover:text-blue-700"
             >
               Add one
