@@ -2,7 +2,7 @@
 
 A full-stack notes application where users can create, edit, and delete notes. Built with modern technologies including **React**, **Vite**, **Tailwind CSS**, **Express.js**, and **MongoDB Atlas**.
 
-> Built for Tony Stark (Iron Man) and YOU! ⚙️
+> Built for YOU! ⚙️
 
 ---
 
