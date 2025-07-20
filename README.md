@@ -50,22 +50,22 @@ A full-stack notes application where users can create, edit, and delete notes. B
 ## 🔧 Getting Started Locally
 
 ### 1. Clone the Repository
- ```bash
+    ```bash
        git clone https://github.com/your-username/notes-app.git
        cd notes-app
 
 ###  2. Setup the Backend
-```bash
-    cd server
-    npm install
+    ```bash
+      cd server
+      npm install
 # Create a .env file with:
 # MONGODB_URI = your-mongo-uri
 # PORT = 5000
     npm start
     
 ### Setup the Frontend
- 
-     cd client
-     npm install
-     npm run dev
+    ```bash
+      cd client
+      npm install
+      npm run dev
 
