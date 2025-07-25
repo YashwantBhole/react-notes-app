@@ -98,13 +98,13 @@ const UpdateNotes = () => {
             <div className="flex gap-4 mt-3">
               <button
                 onClick={() => saveEdit(n._id)}
-                className="flex items-center gap-1 px-4 py-1 bg-green-600 text-white rounded hover:bg-green-700"
+                className="flex items-center gap-1 px-4 py-1 bg-green-600 text-white rounded hover:bg-green-700 cursor-pointer"
               >
                 <FiSave /> Save
               </button>
               <button
                 onClick={cancelEdit}
-                className="flex items-center gap-1 px-4 py-1 bg-gray-300 rounded hover:bg-gray-400"
+                className="flex items-center gap-1 px-4 py-1 bg-gray-300 rounded hover:bg-gray-400 cursor-pointer"
               >
                 <FiX /> Cancel
               </button>
@@ -120,7 +120,7 @@ const UpdateNotes = () => {
             </p>
             <button
               onClick={() => startEdit(n)}
-              className="mt-3 flex items-center text-green-600 hover:text-green-800 gap-1"
+              className="mt-3 flex items-center text-green-600 hover:text-green-800 gap-1 cursor-pointer"
             >
               <FiEdit /> Edit
             </button>

@@ -58,7 +58,7 @@ const ShowNotes = () => {
                 className="bg-white p-6 rounded-2xl shadow-md border border-gray-100 hover:shadow-lg transition duration-200"
               >
                 <h3 className="text-xl font-semibold text-blue-800 mb-2">{n.title}</h3>
-                <p className="text-sm text-gray-500">{n.date}</p>
+                <p className="text-sm text-gray-500"> {new Date(n.date).toLocaleString()}</p>
                 <p className="mt-4 text-gray-700 whitespace-pre-wrap">{n.note}</p>
               </div>
             ))}
