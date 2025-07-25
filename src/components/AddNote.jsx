@@ -11,7 +11,7 @@ const AddNote = () => {
     username,
     title: "",
     note: "",
-    date: new Date().toLocaleString(),
+    date: new Date().toISOString(),
   });
   const [message, setMessage] = useState("");
 
